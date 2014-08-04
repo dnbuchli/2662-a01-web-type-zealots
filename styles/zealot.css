@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{box-sizing:border-box;}
+
+header, footer, .wrapper{width:75%;
+					  float:left;
+		             margin-left:25%;}
+
+.wrapper, footer{padding:15px 25px;}
+		
+h1{text-align:left;
+   font-family: 'Francois One', sans-serif;
+   text-transform:uppercase;
+   font-size:90pt;}
+   
+h2, h3, h4, h5, h6, a{font-family: 'Francois One', sans-serif;}
+
+a{font-size:16pt;
+  color:white;
+  text-decoration:none;}
+  
+a.navy:visited{color:navy;}
+
+  
+a:visited{color:rgba(28,217,158,0.68)}
+a:hover{color:black;}
+body{font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	 font-size:13pt;
+	 line-height:24pt;
+	 background-image:url(../images/squared-metal.png)}
+
+nav{width: 15%;
+	margin-right:10%;
+	position: fixed;
+	left:0;
+	top:45px;
+	background-color:rgba(53,48,48,.5);}
+
+.clear{clear:both;}
+
+.article-header{text-align:left;
+				 font-size:20pt;}
+
+ul{list-style-type:none;
+	padding-left:25px;}
+	
+.split-column1, .split-column{width:50%;
+			   					 float:left;
+			   					 padding-left:25px;}
+			   
+.split-column1{border-right:1px dashed navy;
+				padding-right:15px;}	   
+			   
+small{text-transform:uppercase;}
+
+article{font-size:18pt;
+		 width:60%;}
+		 
+img{width:100%;}
+
+#join{margin:0px;}
+
+hr{border:1px dashed navy;}
+
+
+
+ 
+
+@media only screen and (max-width: 700px) {
+	
+	.split-column{width:100%;
+				 float:left;}
+}
+
+
+
